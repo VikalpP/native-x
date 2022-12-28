@@ -3,11 +3,22 @@
   "version": "0.0.0-development",
   "sideEffects": false,
   "description": "Collection of native-x-* components.",
-  "main": "index.js",
-  "author": "Vikalp Panseriya",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VikalpP/native-x"
+  },
+  "author": "Vikalp Panseriya <vikalppanseriya@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "prepublish": "yarn run build",
+    "semantic-release": "semantic-release"
+  },
   "devDependencies": {
-    "semantic-release": "^19.0.5"
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.9.4"
   },
   "dependencies": {
     "native-x-button": "^1.0.12",
