@@ -1,5 +1,5 @@
 {
-  "name": "native-x",
+  "name": "@vikalp_p/native-x",
   "version": "0.0.0-development",
   "sideEffects": false,
   "description": "Collection of native-x-* components.",
