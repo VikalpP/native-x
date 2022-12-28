@@ -1,0 +1,32 @@
+{
+  "name": "native-x",
+  "version": "0.0.0-development",
+  "sideEffects": false,
+  "description": "Collection of native-x-* components.",
+  "main": "index.js",
+  "author": "Vikalp Panseriya",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  },
+  "dependencies": {
+    "native-x-button": "^1.0.12",
+    "native-x-context-menu": "^1.0.7",
+    "native-x-data-view": "^1.0.9",
+    "native-x-divider": "^1.0.5",
+    "native-x-form": "^1.0.4",
+    "native-x-icon": "^1.0.11",
+    "native-x-image": "^1.0.10",
+    "native-x-list": "^1.3.1",
+    "native-x-modal": "^1.0.12",
+    "native-x-paginated-view": "^1.0.0",
+    "native-x-screen": "^1.0.7",
+    "native-x-spacer": "^1.0.0",
+    "native-x-spinner": "^1.0.7",
+    "native-x-stack": "^1.1.0",
+    "native-x-tappable": "^1.0.4",
+    "native-x-text": "^1.0.10",
+    "native-x-text-input": "^1.0.19",
+    "native-x-theme": "^1.1.0"
+  }
+}
